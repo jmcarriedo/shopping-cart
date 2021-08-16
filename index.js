@@ -44,11 +44,10 @@ function addToCart(e) {
             total +=x;
         }
         document.getElementById('totalRow').innerHTML = `Grand Total: ${total}`;
-        document.getElementById('totalRow').style.padding ='10px'
     }
 }
 
-// function checkOut(ev) {
+// function checkOut(e) {
 //     localStorage.clear();
 //     shoppingCart.length=0;
 // }
